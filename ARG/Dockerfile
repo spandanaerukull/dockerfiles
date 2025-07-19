@@ -1,8 +1,8 @@
 FROM almalinux:9
-ENV NAME="SPANDANA" \
-    COURSE="DOCKER" 
+ENV course="devops" \
+    duration="120hrs" 
 ARG trainer="pragney"
-RUN echo " Hi, name is: ${name}, course is: ${course}, trainer is: ${trainer}"
+RUN echo " Hi, course is: ${course}, duration is: ${duration}, trainer is: ${trainer}"
 CMD ["sleep", "2000"]
 
     
