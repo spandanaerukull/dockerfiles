@@ -1,3 +1,3 @@
-FROM run:v1
+FROM spandanaerukulla
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
