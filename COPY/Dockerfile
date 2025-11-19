@@ -11,4 +11,5 @@ CMD ["nginx", "-g", "daemon off;"]
 ##removing default html page of nginx
 ##copying our custom html page to nginx html location
 ## running nginx in foreground
+## daemon off; is used to run nginx forground
 # FROM is used to tell our base image
