@@ -8,3 +8,5 @@ RUN echo " Hi, course is: ${course}, duration is: ${duration}, trainer is: ${tra
 CMD ["sleep", "5000"]
 
     
+# Here we are using ARG to pass version dynamically while building the image
+# If we don't pass any version it will take default version 9
