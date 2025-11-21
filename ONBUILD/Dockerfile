@@ -8,3 +8,6 @@ CMD ["nginx", "-g", "daemon off;"]
 # so when we use this image as base image for other dockerfiles it will copy index.html to nginx html location
 # so we can create multiple images using this image as base image and each image can have different html pages
 # so this is used to create base image for our application images
+
+# onbuild instruction is mostly used to create base images for our application images
+# here we are creating a base image which has nginx installed and when we use this image as base image for other dockerfiles it will copy index.html to nginx html location
